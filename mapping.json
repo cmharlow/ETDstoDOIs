@@ -1,0 +1,9 @@
+{
+    'datacite.ObjectLocationURL' : 'dc.identifier.uri',
+    'doi' : 'dc.identifier.uri',
+    'datacite.creator' : 'dc.contributor.author',
+    'datacite.title' : 'dc.title',
+    'datacite.publisher' : 'Cornell University Library',
+    'datacite.publicationyear' : 'dc.date.issued',
+    'datacite.resourcetype' : 'Text'
+}
