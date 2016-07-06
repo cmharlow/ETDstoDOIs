@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44798
+datacite.creator: Guo, Jing
+datacite.title: The Stimulation Impact Of Homogeneous And Heterogeneous Visuals On Nominal And Interactive Group Brainstorming
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

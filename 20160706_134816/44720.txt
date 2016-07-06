@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44720
+datacite.creator: Grabiner Keinan, Adi
+datacite.title: There'S A New Left In Town: The Politics Of Solidarity In Occupied Jerusalem
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

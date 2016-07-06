@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44776
+datacite.creator: Peters, Gregory
+datacite.title: Contributions Of The Medial Prefrontal Cortex To Managing Memory And Resolving Mnemonic Interference
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -8,6 +8,7 @@ Eventually, this will be migrated into the ETDs processing workflow as an automa
 
 ## How to Use
 
+```$ python etddoi.py -d '2016-01' 1813-47.csv ```
 
 ## Overall Workflow
 

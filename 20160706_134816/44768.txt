@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44768
+datacite.creator: Wissink, Erin
+datacite.title: Post-Transcriptional Gene Regulation: Roles For Micrornas In Cd8+ T Cells And Discovery Of Novel Cis-Regulatory Elements
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

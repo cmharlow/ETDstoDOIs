@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44729
+datacite.creator: Lindley, Brian
+datacite.title: Mechanistic Investigations Into The Thermal C-C Bond Forming Cyclization Of Metal Pyridine-Enamide Complexes And The Synthesis And Reactivity Of Cationic And Neutral Iron(Iv) Alkylidene Complexes
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44854
+datacite.creator: Wang, Peng
+datacite.title: Using A Non-Dominated Sorting Genetic Algorithm (Nsga-Ii) To Solve The Transit Network Design Problem
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

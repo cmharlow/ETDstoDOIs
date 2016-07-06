@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44788
+datacite.creator: Welsh, Ian
+datacite.title: Giving Shape To Genomic Regulatory Networks Controlling Craniofacial And Asymmetric Organ Morphogenesis
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

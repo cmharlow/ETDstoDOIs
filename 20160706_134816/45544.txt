@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45544
+datacite.creator: Mertz, Rachel
+datacite.title: Molecular Genetic Dissection Of Bundle Sheath Suberization In Zea Mays And Setaria Viridis, Two Model Nadp-Me C4 Grasses
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

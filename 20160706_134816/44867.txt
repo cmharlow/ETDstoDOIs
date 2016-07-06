@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44867
+datacite.creator: Gupta, Soumya
+datacite.title: Three Essays On Agriculture- Nutrition Linkages: Women'S Iron Status And Empowerment In Agriculture In Chandrapur, India.
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

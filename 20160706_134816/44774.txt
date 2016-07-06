@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44774
+datacite.creator: Zhang, Fang
+datacite.title: Effects Of A Design Intervention For Facilitating Pet Visits To Long-Term Residents In An Aged Care Facility
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

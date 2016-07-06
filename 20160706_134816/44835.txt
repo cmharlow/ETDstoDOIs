@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44835
+datacite.creator: Lee, Mike
+datacite.title: Musical Intentionality: Between Objects And Meaning
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

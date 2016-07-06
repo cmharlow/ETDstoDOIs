@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44841
+datacite.creator: Kruer, Megan
+datacite.title: Rape'S Reprisals: Missing Sexual Violence In Early Modern French Literature
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

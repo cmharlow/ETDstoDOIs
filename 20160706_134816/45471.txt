@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45471
+datacite.creator: Schmitt, Diane
+datacite.title: Effect Of Pre-Fermentation Cold Soak On The Chemical And Sensory Qualities Of Aromatic White Wines
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

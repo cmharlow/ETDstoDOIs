@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44763
+datacite.creator: Blackburn, Erika
+datacite.title: The Impact Of Poverty On Infant Development: A Microanalytic Study Of The Mediating Role Of Parent-Child Interaction During Pretense
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44733
+datacite.creator: Yang, Bishan
+datacite.title: Extracting Opinions And Events From Text: Joint Inference Approaches
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

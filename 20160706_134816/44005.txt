@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44005
+datacite.creator: Swanson, Rachel
+datacite.title: Temporal and Spatial Coordination of the Hippocampus, Retrosplenial Cortex, and Anterior Thalamus
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

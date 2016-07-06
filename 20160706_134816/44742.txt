@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44742
+datacite.creator: Martins Tahim, Camila
+datacite.title: Yeast Assimilable Nitrogen Requirements Of Innoculated And Spontaneous Fermentations Of Riesling (V. Vinifera L.)
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44778
+datacite.creator: Stiesberg, Gregory
+datacite.title: Dynamic Simulation Of Nonlinear Hybrid Rigid-Object Systems With Intermittent Non-Holonomic Constraints: In Search Of Stable Passive Hopping
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text
