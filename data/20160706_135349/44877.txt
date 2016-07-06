@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44877
-datacite.creator: Sun, Siwei
-datacite.title: Characterization Of Flocs And Floc Size Distributions Using Image Analysis
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44880
-datacite.creator: O'Toole, Thomas
-datacite.title: Shadows Of The Cross: Barack Obama, Clerical Politics, And Gay Rights Compartmentalization In The Black Church
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

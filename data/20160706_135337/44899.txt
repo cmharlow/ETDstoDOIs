@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44899
-datacite.creator: Yan, Yuchen
-datacite.title: Sensitivity Analysis Of Imported Container Volumes To Surcharge Fees Via A User-Equilibrium Model
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

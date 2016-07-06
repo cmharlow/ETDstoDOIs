@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44779
-datacite.creator: Vidovic, Goran
-datacite.title: Women, Metapoetry, And Comic Reception In Terence
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

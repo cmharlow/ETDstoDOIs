@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45461
+datacite.creator: Woster, Cassandra
+datacite.title: Beacons Of Civilization: Roadhouses Of The Richardson Highway
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2QF8QG7Q

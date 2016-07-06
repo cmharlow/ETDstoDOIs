@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44773
-datacite.creator: Tagle, Felipe
-datacite.title: Climate Extremes In A General Climate Model With Stochastic Parameterizations
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

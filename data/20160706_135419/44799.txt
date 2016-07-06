@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44799
-datacite.creator: Werner, Joerg
-datacite.title: Ordered Three-Dimensional Carbon-Based Multifunctional Nanohybrids For Energy Storage
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

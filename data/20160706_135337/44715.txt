@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44715
-datacite.creator: Cabolova, Anastasija
-datacite.title: Seismic Investigation Of Deep 2D, 3D And 4D Structures Using Body Wave Interferometry, Computer Simulations And Semi-Conventional Processing
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

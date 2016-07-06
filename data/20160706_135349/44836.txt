@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44836
-datacite.creator: Bernard, Megan
-datacite.title: Characterization Of The Macrophage Response To Peripheral Nerve Injury
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

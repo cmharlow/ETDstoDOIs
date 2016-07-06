@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44758
-datacite.creator: Fay, Elisabeth
-datacite.title: Precarious Landscapes: Space, Identity, And Community In Migrant Italy
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

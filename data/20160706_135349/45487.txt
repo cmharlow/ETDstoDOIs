@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45487
-datacite.creator: Kim, HyunJung
-datacite.title: Genetic Characterization Of The O. Rufipogon Species Complex And Construction Of Interspecific Pre-Breeding Resources For The Rice Improvement
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

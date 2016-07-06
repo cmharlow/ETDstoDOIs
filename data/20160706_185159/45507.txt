@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45507
+datacite.creator: Molde, Klas Erik
+datacite.title: Enchantment And Embarrassment In The Lyric
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2Z60J02K

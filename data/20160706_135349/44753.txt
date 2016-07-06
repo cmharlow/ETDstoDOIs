@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44753
-datacite.creator: Smart, Danya
-datacite.title: Insight Into The Mechanisms Of Transcription Regulation By A Merr-Family Metalloregulator Through Single-Molecule Analysis
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

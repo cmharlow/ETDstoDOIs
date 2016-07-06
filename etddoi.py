@@ -7,6 +7,7 @@ import csv
 import re
 import time
 import os
+import subprocess
 import pprint
 
 year_re = re.compile("^[0-9]{4}\-+.+$")
@@ -96,6 +97,33 @@ def slimECdata(olddata):
     return(newdata)
 
 
+def mintDOIs(data, workingdir, args):
+    """Call ezid.py to generate DOIs for handles with metadata as ANVL."""
+    for record in data:
+        recID = record['id']
+        # Run python ezid.py username:password mint doi:shoulder @ ANVLfile.txt
+        unpw = args.username + ":" + args.password
+        doish = 'doi:' + args.shoulder
+        meta = workingdir + recID + '.txt'
+        proc = ['python', 'ezid.py', unpw, 'mint', doish, '@', meta]
+        EZIDout = subprocess.check_output(proc)
+        doiURL = EZIDout.split(' | ')[0].replace('success: doi:', 'http://dx.doi.org/')
+        print(recID, doiURL)
+        with open(meta, 'a') as fh:
+            fh.write(doiURL)
+        record['dc.identifier.doi'] = doiURL
+    print('finished minting DOIs.')
+    with open(workingdir + "EC.csv", 'w') as csvfile:
+        keys = set()
+        for rec in data:
+            for key in rec.keys():
+                keys.add(key)
+        writer = csv.DictWriter(csvfile, fieldnames=keys)
+        writer.writeheader()
+        writer.writerows(data)
+    print('finished creating eCommons update CSV in ' + workingdir)
+
+
 def csvParse(datafile, dateAfter):
     """Take eCommons CSV, rewrite for our needs (workflow step 2)."""
     with open(datafile, 'r') as ECfile:
@@ -110,11 +138,11 @@ def csvParse(datafile, dateAfter):
     print("Records to be updated with DOIs: " + str(len(data)))
     # Create working directory for this job
     now = time.localtime()[0:6]
-    dirfmt = "data/%4d%02d%02d_%02d%02d%02d"
+    dirfmt = "data/%4d%02d%02d_%02d%02d%02d/"
     dirname = dirfmt % now
     os.mkdir(dirname)
     # Put in CSV file with needed fields
-    with open(dirname + "/EC.csv", 'w') as csvfile:
+    with open(dirname + "EC.csv", 'w') as csvfile:
         keys = set()
         for rec in data:
             for key in rec.keys():
@@ -132,7 +160,7 @@ def doiParse(newdir):
         data = [x for x in reader]
     print("creating ANVL files in " + newdir)
     for record in data:
-        dirid = record['id'].replace('/', '-')
+        dirid = record['id']
         with open(newdir + dirid + '.txt', 'a') as fh:
             # Note field
             fh.write('# ' + '\n')
@@ -179,18 +207,23 @@ def doiParse(newdir):
                     fh.write(record['id'])
                     fh.write('\n')
             # Resource Type
-            fh.write('datacite.resourcetype: Text')
+            fh.write('datacite.resourcetype: Text \n')
     print('ANVL txt files created.')
+    return(data)
 
 
 def main():
     """main operation of script."""
     parser = ArgumentParser(usage='%(prog)s [options] ecommonsMetadata.csv')
-    parser.add_argument("-t", "--test", dest="store_true",
-                        help="run on sandbox DOI")
     parser.add_argument("-d", "--date", dest="date",
                         help="Date on or after that an ETD was published for \
                         creating DOIs. Put in format YYYY-MM")
+    parser.add_argument("-u", "--username", dest="username",
+                        help="EZID creation username")
+    parser.add_argument("-p", "--password", dest="password",
+                        help="EZID creation password.")
+    parser.add_argument("-s", "--shoulder", dest="shoulder", default="10.5072/FK2",
+                        help="DOI shoulder to use. Format 10.5072/FK2.")
     parser.add_argument("datafile", help="eCommons metadata worked from.")
 
     args = parser.parse_args()
@@ -200,7 +233,8 @@ def main():
         parser.exit()
 
     workingdir = csvParse(args.datafile, args.date)
-    doiParse(workingdir + "/")
+    output = doiParse(workingdir)
+    mintDOIs(output, workingdir, args)
 
 
 if __name__ == '__main__':

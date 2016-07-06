@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44895
-datacite.creator: Zhang, Xue
-datacite.title: The Role Of Local Economic Development Policies In The Promotion Of Sustainable Development
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44860
-datacite.creator: Chen, Shuo
-datacite.title: Representation Learning For Sequence And Comparison Data
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

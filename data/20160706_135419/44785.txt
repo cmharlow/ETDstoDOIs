@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44785
-datacite.creator: Yoon, Hye Jung
-datacite.title: Competence And Motivation: Pathways To Relational Versus Collective Status
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

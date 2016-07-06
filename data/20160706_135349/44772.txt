@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44772
-datacite.creator: Yang, Eunhwa
-datacite.title: Diffusion Of Innovation In Sustainable Building Practices In Construction Projects And The Role Of Major Stakeholders
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

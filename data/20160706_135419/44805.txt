@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44805
-datacite.creator: Rodriguez, Justin
-datacite.title: Interfacing A Nanonis Controller With A Scanning Tunneling Microscope
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44725
-datacite.creator: Bendorf, Adam
-datacite.title: Obligations And Blame At The Moral Epistemological Limit
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

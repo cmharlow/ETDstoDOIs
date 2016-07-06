@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44824
-datacite.creator: Mathew, Kiran
-datacite.title: Development Of Multi-Scale Computational Tools For The Study Of Interfaces
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

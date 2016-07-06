@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44770
-datacite.creator: Turnell, Biz
-datacite.title: Sexual Selection In The Field: Pre- And Postcopulatory Dynamics In A Hawaiian Cricket
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

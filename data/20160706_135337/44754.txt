@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44754
-datacite.creator: Wakefield, Devin
-datacite.title: Patterned Ligand Surfaces For The Study Of Egf And Ige Receptor-Mediated Signaling
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44781
-datacite.creator: Geng, Haoyan
-datacite.title: Towards Efficient And Reliable Publish-Subscribe For Geo-Distributed Datacenters
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

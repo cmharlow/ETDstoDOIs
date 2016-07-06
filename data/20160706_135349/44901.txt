@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44901
-datacite.creator: Zhang, Yuxiao
-datacite.title: Apparel Industry Csr Online Reporting Strategy On Product Webpage: Exploring Consumers In Usa And China
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

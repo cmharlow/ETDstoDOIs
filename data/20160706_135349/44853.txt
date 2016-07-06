@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44853
-datacite.creator: Coles, Phillip
-datacite.title: Produce Buyer Quality Requirements To Form An Eastern Broccoli Industry
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

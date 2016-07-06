@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44818
-datacite.creator: Kelsey, Keegan
-datacite.title: Natural Genetic Variation Involved In Chromatin Modification
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

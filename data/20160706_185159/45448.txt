@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45448
+datacite.creator: Wenning, Brandon
+datacite.title: Synthesis And Study Of Functionalized Polydimethylsiloxane Block Copolymers: Control Of Surface Properties And Use In Antibiofouling Coatings
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2P848T1Q

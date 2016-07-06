@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44793
-datacite.creator: Wagoner, Jessica
-datacite.title: Studies On Trans-Acting Factors Involved In Chloroplast Rna Editing In Arabidopsis Thaliana
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

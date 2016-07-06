@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44889
-datacite.creator: DeFraine, William
-datacite.title: An Examination Of Emotion In Social And Cognitive Processes
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

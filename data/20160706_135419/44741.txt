@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44741
-datacite.creator: Liao, Chuan
-datacite.title: Complexity In The Open Grazing System: Rangeland Ecology, Pastoral Mobility And Ethnobotanical Knowledge In Borana, Ethiopia
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

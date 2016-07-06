@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44712
-datacite.creator: Aksu, Anil
-datacite.title: Energetics Of Nonlinear Generation Of Harmonics Through The Interaction Of An Internal Wave Beam With A Model Ocean Pycnocline
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

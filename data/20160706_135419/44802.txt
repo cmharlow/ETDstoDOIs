@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44802
-datacite.creator: Moore, Joshua
-datacite.title: Embedding Methods For Generative Modeling And Visual Data Analysis
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

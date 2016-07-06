@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44731
-datacite.creator: Guthrie, Bernadette
-datacite.title: Untimely Interference: Anachronistic Temporalities In Nineteenth-Century British Poetry
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

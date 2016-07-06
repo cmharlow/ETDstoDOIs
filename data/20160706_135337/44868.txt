@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44868
-datacite.creator: Jauss, Sabine-Verena
-datacite.title: Pyrogenic Carbon Distribution And Controls In Soils Of The United States
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

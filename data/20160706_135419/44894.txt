@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44894
-datacite.creator: He, Xi
-datacite.title: Bilateral Interactions In Two-Sided Networks – A Perspective From Matching Theory
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

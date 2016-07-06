@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44728
-datacite.creator: Freeman, Benjamin
-datacite.title: The Evolutionary Ecology Of Elevational Specialization In Tropical Montane Birds
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

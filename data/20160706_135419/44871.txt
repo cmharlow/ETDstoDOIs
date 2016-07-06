@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44871
-datacite.creator: Sekar, Sathish
-datacite.title: Efficay Of Salinity Mitigation On Warm Season Turfgrass
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

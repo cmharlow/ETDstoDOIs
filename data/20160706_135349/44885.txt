@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44885
-datacite.creator: Zhang, Tietie
-datacite.title: Ad Hoc Arbitration In China
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44757
-datacite.creator: Hamilton, Diana
-datacite.title: Style And The Experiment: The Coherence Of Experimental Writing
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

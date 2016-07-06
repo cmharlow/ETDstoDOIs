@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45462
+datacite.creator: Sevillano Rios, Cristian
+datacite.title: Diversity, Ecology, And Conservation Of Bird Communities Of Polylepis Woodlands In The Northern Andes Of Peru
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2930TS33

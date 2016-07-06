@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44838
-datacite.creator: Fernandez Peters, Marcela
-datacite.title: Rapid Social And Hormonal Modulation Of Ultrasonic Vocalizations In The Golden Hamster (Mesocricetus Auratus)
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

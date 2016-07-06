@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45556
-datacite.creator: Chamberlain, Samuel
-datacite.title: Methane Fluxes In Human-Dominated Ecosystems: From Pastures To Cities
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

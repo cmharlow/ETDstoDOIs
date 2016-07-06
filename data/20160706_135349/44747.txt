@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44747
-datacite.creator: Coimbatore Nageswaran, Divyashree
-datacite.title: Genetic Dissection Of A Candidate Gene Controlling Flower Color In Brassica (Fast Plant)
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

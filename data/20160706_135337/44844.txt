@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44844
-datacite.creator: Mcglashan, Neil
-datacite.title: A Seismic Study Of The Andean And Taiwanese Lithosphere Using Depth-Phase Precursors And S-Wave Receiver Functions
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

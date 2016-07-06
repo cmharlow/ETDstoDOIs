@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44875
-datacite.creator: Mahajan, Sai Pooja
-datacite.title: Towards The Rational Design Of A Target-Specific Antibody
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

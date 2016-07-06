@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44892
-datacite.creator: Yu, Wing-kei
-datacite.title: Hybrid Memories For Energy Efficient Computing Systems
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

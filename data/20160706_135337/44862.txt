@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44862
-datacite.creator: Chandrasekaran, Sri nivas
-datacite.title: Acoustic Radiation Force Optical Coherence Elastography : Localized Vs. Wide-Area Perturbation – A Comparison
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

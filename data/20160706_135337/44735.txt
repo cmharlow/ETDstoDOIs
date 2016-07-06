@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44735
-datacite.creator: Wallin, Christopher
-datacite.title: Single Cell And Single Molecule Techniques For The Analysis Of The Epigenome
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

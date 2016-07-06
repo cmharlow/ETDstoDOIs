@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44800
-datacite.creator: Choe, Justin
-datacite.title: Essays In Innovation And Technology Adoption
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44884
-datacite.creator: Williams, Tiffany
-datacite.title: Freeze-Casting For Facile Synthesis Of Novel Porous Materials
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

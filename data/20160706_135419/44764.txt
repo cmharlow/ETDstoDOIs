@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44764
-datacite.creator: Brauer, Elizabeth
-datacite.title: Protein Kinase-Mediated Immunity In Arabidopsis And Nicotiana Benthamiana
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45450
+datacite.creator: Chung, Chen-Yang
+datacite.title: High Mobility Of Sputtered In2Ga2Zno7 (Igzo) Thin Film Transistors (Tfts)
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2JH3K074

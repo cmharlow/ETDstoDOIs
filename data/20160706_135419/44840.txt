@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44840
-datacite.creator: Li, Ming
-datacite.title: Single Molecule Studies Of Chromatin Dynamics And Transcription Coupled Repair
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

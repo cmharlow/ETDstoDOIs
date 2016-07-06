@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44792
-datacite.creator: Wayman, Joseph
-datacite.title: Metabolic Modeling And Analysis Of Microbial Glycosylation Platforms
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

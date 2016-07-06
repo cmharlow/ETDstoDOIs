@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44893
-datacite.creator: Zhang, Wenyu
-datacite.title: Study Of Atomic Layer Deposition: Thin Film Continuity And Techniques To Modulate Surface Reactivity
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

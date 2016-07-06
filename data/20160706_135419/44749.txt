@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44749
-datacite.creator: Fossati, Diego
-datacite.title: Elections, Parties And Policy: The Multilevel Politics Of Free Healthcare In Indonesia
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

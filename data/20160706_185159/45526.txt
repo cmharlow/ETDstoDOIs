@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45526
+datacite.creator: Kelly, Matthew
+datacite.title: Designing Reliable Controllers For Bipedal Robots
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2D21XG56

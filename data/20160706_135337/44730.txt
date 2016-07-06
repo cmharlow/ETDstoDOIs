@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44730
-datacite.creator: Wham, Brad
-datacite.title: Jointed Pipeline Response To Large Ground Movements
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

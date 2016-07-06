@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44748
-datacite.creator: Pagan, Darren
-datacite.title: High Energy X-Ray Diffraction Studies Of Heterogeneous Slip In Plastically Deforming Single Crystals
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

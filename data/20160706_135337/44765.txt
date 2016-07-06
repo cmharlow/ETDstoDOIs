@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44765
-datacite.creator: Mueller, Eva-Maria
-datacite.title: Constraining Physics Beyond The Cosmological Standard Model
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

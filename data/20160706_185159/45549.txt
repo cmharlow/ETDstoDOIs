@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45549
+datacite.creator: Nurgozhayeva, Roza
+datacite.title: State Ownership In Terms Of Transition: Curse Or Blessing. The Cases Of Kazakhstan And China
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK22B9189M

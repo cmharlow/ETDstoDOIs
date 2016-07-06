@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44897
-datacite.creator: Oh, Yoon Jeong
-datacite.title: Translating Melancholia: The Multiplicity Of Language And The Logic Of Translation In The Postcolonial Writings Of Yi Sang, Theresa Hak Kyung Cha, And Ook Chung
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

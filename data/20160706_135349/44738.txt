@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44738
-datacite.creator: Fulton, Carrie
-datacite.title: Lost In Transportation: Trade Networks And The Materiality Of Cargoes In The Ancient Mediterranean
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

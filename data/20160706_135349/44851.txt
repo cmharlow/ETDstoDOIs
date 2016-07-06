@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44851
-datacite.creator: Perry, Phillips
-datacite.title: The Performance Of Regionalization Schemes In Classifying Lakes For Black Bass Population Characteristics
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

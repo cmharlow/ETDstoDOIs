@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44760
-datacite.creator: Wayne, Elizabeth
-datacite.title: Investigation Of The Innate Immune Response To Circulating Tumor Cells In Preclinical Animal Models Of Cancer Metastasis
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text

@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/44896
-datacite.creator: Li, Yupeng
-datacite.title: Is The Social Network An Effective Factor When Using Tablet Pcs For Learning? Evidence From A Field Experiment In Chinese Migrant Primary School
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text
