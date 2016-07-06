@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45529
+datacite.creator: Hall, Matthew
+datacite.title: Single Cell Force Generation And Transmission Within Collagen Matrices
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

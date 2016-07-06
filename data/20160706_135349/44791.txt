@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44791
+datacite.creator: Follman, Jessica
+datacite.title: French Scenic Wallpaper In The American House Museum: A Panoramic View Of Its History, Production, Role In The Arts, Selection, Installation, Care, And Conservation, With A Special Focus On Lindenwald And Vizcaya
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

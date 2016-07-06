@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44780
+datacite.creator: Alsalman, Hussain
+datacite.title: Transferred Monolayer And Ab Stacked Bilayer (0001) Sic Epitaxial Graphene
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

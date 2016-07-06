@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45575
+datacite.creator: Xu, Xuejuan
+datacite.title: Effect Of Surface Tension On Deformation Of Soft Solids
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

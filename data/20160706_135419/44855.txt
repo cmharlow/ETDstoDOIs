@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44855
+datacite.creator: Swift, Rose
+datacite.title: Nest Site Selection In Hudsonian Godwits: Effects Of Habitat And Predation Risk
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

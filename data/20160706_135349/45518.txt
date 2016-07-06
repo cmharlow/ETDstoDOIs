@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45518
+datacite.creator: Grayson, Malika
+datacite.title: Urban Wind: Impact Of Building Geometry On The Wind Energy Yield Potential Above Rooftops Of Buildings
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

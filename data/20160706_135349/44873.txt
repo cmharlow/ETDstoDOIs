@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44873
+datacite.creator: Luo, SiWei
+datacite.title: Mapping Valence: Learning-Dependent Immediate-Early Gene Early Growth Response (Egr-1) Expression In Chemosensory And Valence Circuitries Of The Long Evans Rat Brain
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

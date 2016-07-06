@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44718
+datacite.creator: Evans, Alyssa
+datacite.title: Fuzzy-Trace Theory And The Neural Basis Of The Framing Effect In Adolescents
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44809
+datacite.creator: Yan, Jiapei
+datacite.title: A Novel Regulator Of Copper Homeostasis, Ccit1, And Spl7 Connect Copper Homeostasis With Pollen Fertility, Jasmonic Acid Biosynthesis And Cadmium Resistance In Arabidopsis Thaliana
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

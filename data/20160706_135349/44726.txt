@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44726
+datacite.creator: Alexiades, Alexander
+datacite.title: Effects Of Salmonid Management On Native Species And Ecosystem Function In New York Streams
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44830
+datacite.creator: Rosas, Luisa
+datacite.title: Genealogies Of Cruelty: Alternative Theaters In An Early Modern World
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

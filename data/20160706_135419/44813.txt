@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44813
+datacite.creator: Fraley, Keith
+datacite.title: The Black Male Mass: A Discourse Of African-American Male Imagery And Representation In The Fashion System
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

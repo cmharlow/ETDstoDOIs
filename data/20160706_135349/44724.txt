@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44724
+datacite.creator: Casey, Anna
+datacite.title: Aesthetic Impropriety: Properties Of Law And Politics In Postcolonial Literature
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

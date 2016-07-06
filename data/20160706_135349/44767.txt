@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44767
+datacite.creator: Hoagland, Emily
+datacite.title: Women And Political Fundraising: Obstacles Overcome And Obstacles To Come
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

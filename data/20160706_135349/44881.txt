@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44881
+datacite.creator: Lee, Tae Kyoung
+datacite.title: The Influence In News Stories Of Criminal Intentionality And Criminal And Victim Affective Dispositions On Support For Policy About Alcohol Crimes
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

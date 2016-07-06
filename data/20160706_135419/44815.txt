@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44815
+datacite.creator: Chen, Kai-Yuan
+datacite.title: Dynamic Regulation Of Intestinal Stem Cell Niche And Colon Cancer Stem Cell Division
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

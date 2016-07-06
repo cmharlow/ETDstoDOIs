@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44859
+datacite.creator: Ye, Ru
+datacite.title: Higher-Order Evidence: Puzzles And Solutions
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

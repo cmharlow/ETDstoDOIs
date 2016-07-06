@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44891
+datacite.creator: Mastandrea, William
+datacite.title: Cupellation At Kea: Investigating Potential Applications Of The Minoan Conical Cup
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

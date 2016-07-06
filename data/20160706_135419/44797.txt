@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44797
+datacite.creator: Tse, Jonathan
+datacite.title: A Simple Methodology For Design Tradeoff Analysis In Asynchronous Circuits
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

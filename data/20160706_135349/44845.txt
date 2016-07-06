@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44845
+datacite.creator: Feng, Ni
+datacite.title: Biological Rhythms Of Vocal Behavior In Fish: Hormonal, Neuronal, And Genetic Mechanisms
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

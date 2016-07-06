@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45497
+datacite.creator: Leon, Jeffrey
+datacite.title: Beyond 'Counting Sheep': Isotopic Approaches To Minoan And Late Cypriot Shepherding
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44883
+datacite.creator: Tran, Tien
+datacite.title: The Novel Gr29D09 Effector Family From Potato Cyst Nematode Globodera Rostochiensis Suppresses Plant Immunity To Promote Nematode Parasitism
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

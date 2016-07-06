@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44869
+datacite.creator: Carling, Stacy
+datacite.title: Maternal Experiences Associated With Optimal Breastfeeding Behavior And The Role Of Breastfeeding In Moderating Child Risk Of Obesity
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

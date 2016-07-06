@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44812
+datacite.creator: Bybee-Finley, Kristine
+datacite.title: Functional Diversity In Summer Annual Grass And Legume Forage Intercrops
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

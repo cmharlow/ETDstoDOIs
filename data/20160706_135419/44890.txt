@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44890
+datacite.creator: Pennock, William
+datacite.title: Development Of The Turbulent Tube Flocculator
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

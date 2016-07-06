@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44775
+datacite.creator: Merz, Gregory
+datacite.title: Characterizing Protein Conformations Using Copper-Based Pulsed Dipolar Esr Spectroscopy And Complimentary Biophysical Methods
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

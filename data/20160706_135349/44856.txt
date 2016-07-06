@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44856
+datacite.creator: Tirunagari, Ranjith
+datacite.title: Computational Investigation Of Highly-Turbulent Counterflow Flames Using Large-Eddy Simulation/Probability Density Function (Les/Pdf) Methods
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

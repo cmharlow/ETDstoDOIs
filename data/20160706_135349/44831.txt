@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44831
+datacite.creator: Dirar, Luwam
+datacite.title: Theorizing Regional Integration Among Southern African States And Their Relations With The European Union
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45555
+datacite.creator: Messick, Scott
+datacite.title: Continuous Automata, Compactness, And Young Measures
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

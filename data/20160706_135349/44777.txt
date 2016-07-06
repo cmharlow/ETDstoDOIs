@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44777
+datacite.creator: Gifford, Gemara
+datacite.title: Agroecosystems For Communities And Conservation: Linking Bird Conservation And Sustainable Livelihoods In The Highlands Of Guatemala
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

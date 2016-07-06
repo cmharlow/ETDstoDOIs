@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45475
+datacite.creator: Deng, Danny
+datacite.title: Flexible And Efficient Accelerator Architecture For Runtime Monitoring
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

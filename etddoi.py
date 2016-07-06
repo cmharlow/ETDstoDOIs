@@ -110,7 +110,7 @@ def csvParse(datafile, dateAfter):
     print("Records to be updated with DOIs: " + str(len(data)))
     # Create working directory for this job
     now = time.localtime()[0:6]
-    dirfmt = "%4d%02d%02d_%02d%02d%02d"
+    dirfmt = "data/%4d%02d%02d_%02d%02d%02d"
     dirname = dirfmt % now
     os.mkdir(dirname)
     # Put in CSV file with needed fields
@@ -201,7 +201,6 @@ def main():
 
     workingdir = csvParse(args.datafile, args.date)
     doiParse(workingdir + "/")
-    doiGenerate
 
 
 if __name__ == '__main__':

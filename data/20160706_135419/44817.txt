@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44817
+datacite.creator: Jin, Kyoung Joo
+datacite.title: Structures And Reactions Of Glycinimine-Derived Enolates
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44717
+datacite.creator: Warning, Alexander
+datacite.title: Physical Mechanisms Of Bacterial Attachment And Internalization In Plants: Multiscale Modeling With Non-Invasive Imaging
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

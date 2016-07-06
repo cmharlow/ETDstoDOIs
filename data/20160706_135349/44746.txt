@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44746
+datacite.creator: Fox, Don
+datacite.title: Thermal Hydraulic Modeling Of Discretely Fractured Geothermal Reservoirs
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

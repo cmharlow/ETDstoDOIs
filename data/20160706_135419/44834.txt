@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44834
+datacite.creator: Wang, Lu
+datacite.title: Summarization And Sentiment Analysis For Understanding Socially-Generated Content
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44842
+datacite.creator: Ng Wenlin, Mairin
+datacite.title: Language-Dependent Recall Of Autobiographical Memories In English-Mandarin Bilingual Singaporeans
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

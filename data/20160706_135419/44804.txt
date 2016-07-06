@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44804
+datacite.creator: Pacelli, Joseph
+datacite.title: Corporate Culture In Financial Markets
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45554
+datacite.creator: Claflin, Susan
+datacite.title: Environmental And Ecological Factors Influencing Insect-Borne Virus Epidemiology
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

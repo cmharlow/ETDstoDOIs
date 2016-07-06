@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44846
+datacite.creator: Crum, Nathan
+datacite.title: Spatial Ecology And Recolonization Dynamics Of Moose In New York And Northeastern North America
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

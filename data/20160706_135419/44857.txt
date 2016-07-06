@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44857
+datacite.creator: Sahore, Ritu
+datacite.title: Design And Synthesis Of Porous Carbons For Lithium-Sulfur Batteries And Other Electrochemical Energy Storage Applications
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

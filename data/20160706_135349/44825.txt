@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44825
+datacite.creator: Ojeda, Karen
+datacite.title: Black And White Makes Gray: A Look At The Impact Of Race On Child Witness Credibility
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

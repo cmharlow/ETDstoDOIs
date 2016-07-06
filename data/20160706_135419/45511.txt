@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45511
+datacite.creator: Smith, Laura
+datacite.title: Evaluation Of Food-Chain Mycotoxin Exposure In Rural Zimbabwe: Determinants, Effects And Mechanisms
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45535
+datacite.creator: Zhelev, Nikolay
+datacite.title: Search For New Superfluid States Of 3He Confined In Coherence Length Sized Nanofabricated Structures
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

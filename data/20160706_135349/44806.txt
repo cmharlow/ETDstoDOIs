@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44806
+datacite.creator: Tian, Jia
+datacite.title: Study Of Water Absorption Band Depth Features With Varied Soil Properties During The Drying Process
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text

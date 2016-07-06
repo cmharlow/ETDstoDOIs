@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/44882
+datacite.creator: Tong, Tianyi
+datacite.title: A Spatiotemporal Examination Of The Mechanisms Involved In Long-Term Memory For Incrementally Acquired Information
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text
