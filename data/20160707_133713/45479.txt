@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45479
+datacite.creator: FitzGerald, Edward
+datacite.title: A Quantitative Analysis Of Stone Buildings And Assessment Of The Masonry Labor Market In New York State
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2RX98B2F

@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45524
+datacite.creator: Kim, Mun Sek
+datacite.title: Fabricating Multifunctional Coatings Using Layer-By-Layer Langmuir-Blodgett Processes
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2M61HN28

@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45469
+datacite.creator: Mohapatra, Debi Prasad
+datacite.title: Drug Price Control Policy And Access To Malarial Drugs In India
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2542Q62V

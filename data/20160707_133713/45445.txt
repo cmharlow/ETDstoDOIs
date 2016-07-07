@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45445
+datacite.creator: Webb-Binder, Bernida
+datacite.title: Affinities And Affiliations: Black Pacific Art In Aotearoa/New Zealand, 1948-2008
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2ZS2RB0B

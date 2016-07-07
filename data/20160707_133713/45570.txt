@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45570
+datacite.creator: Srinivasan, Tara
+datacite.title: Notch Signaling: Mechanistic And Functional Studies In Intestinal Stem Cells And Colorectal Cancer Cells
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2SB42W5V

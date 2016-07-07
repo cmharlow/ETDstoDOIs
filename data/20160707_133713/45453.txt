@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45453
+datacite.creator: Croteau, Chantal
+datacite.title: Competing Modes Of Remembrance: Tsunami Commemoration In Takuapa, Thailand
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2639R34R

@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45456
+datacite.creator: Umbright, Christine
+datacite.title: Ab Initio Theory Of Energy Storage Through Nanoscale Charge Separation And Transport
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2D79B79G
