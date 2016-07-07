@@ -1,5 +1,7 @@
 # eCommons ETDs to DOIs
 
+Built/tested with Python 2.7. EZID.py script requires work to function with Python 3.
+
 ## Goal
 
 We want to take eCommons handles and metadata - in particular, for electronic dissertations and theses - once loaded, use the handles and basic eCommons metadata to generate DOIs using the [EZID DOI API](http://ezid.cdlib.org/doc/apidoc.html#python-example), then push those DOIs back into the dc.identifier.doi metadata field in eCommons.
