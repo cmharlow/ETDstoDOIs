@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45499
-datacite.creator: Goodrich, Julia
-datacite.title: Investigating The Impact Of Host Genetic Variation On The Human Gut Microbiota Using Twin Pairs
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2TX3B477

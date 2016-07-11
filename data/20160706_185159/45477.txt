@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45477
-datacite.creator: Randles, Evan
-datacite.title: Convolution Powers Of Complex-Valued Functions And Related Topics In Partial Differential Equations
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK27M08X6D

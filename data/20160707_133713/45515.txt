@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45515
-datacite.creator: de la Garza, Lucas
-datacite.title: Multi-Object, Multi-Sensor Detection And Tracking Of Pedestrians On A Mobile Robot
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2G160821

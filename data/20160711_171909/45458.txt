@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45458
-datacite.creator: Ouellette, Charles
-datacite.title: Long-Term Nitrogen And Phosphorus Trends In The Groundwaters Of The Cornell University Ruminant Center In Harford, Ny: 1974-2016
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2K64GR25

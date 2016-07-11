@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45446
-datacite.creator: Treml, Benjamin
-datacite.title: Physical And Chemical Processing Methods For Producing Nanocrystal Films With Properties By Design
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK22N54F73

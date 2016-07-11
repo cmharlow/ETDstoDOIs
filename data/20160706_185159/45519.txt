@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45519
-datacite.creator: Bentley, Michael
-datacite.title: Boomerang Bias: Examining The Effect Of Parental Coresidence On Millennial Financial Behavior
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2F47NR6K

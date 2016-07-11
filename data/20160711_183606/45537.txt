@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45537
-datacite.creator: Chen, Po-Cheng
-datacite.title: Micro-Fabricated Silicon Based Probes For Biomedical Applications: Reliable Neural Interface, Electro-Mechano Tissue Assay Surgical Tweezer, And Fluid Viscosity Sensing
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 

@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45516
-datacite.creator: Akepiyapornchai, Manasicha
-datacite.title: Ved¿Ntadesika’S Interpretation Of R¿M¿Nuja’S Prapatti: A Study Based On The Nik¿Eparak¿¿
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2T72DD1W

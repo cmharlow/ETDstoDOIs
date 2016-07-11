@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45441
-datacite.creator: Otwell, Anne
-datacite.title: Insights Into Microbial Metal Reduction Through Implementation Of Proteomic-Based Techniques: A Focus On The Gram-Positive Bacterium Desulfotomaculum Reducens Mi-1
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK23R0VR36

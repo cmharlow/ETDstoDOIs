@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45521
-datacite.creator: Houghton, Michael
-datacite.title: The Role Of Solvation And Aggregation On Lithium Enolates Derived From L-Pyroglutaminol Hemiaminals And Weinreb Amides And Their Mechanistic And Stereoinductive Influences On The Azaaldol Reaction.
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2T43Q12D

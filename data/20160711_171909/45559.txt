@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45559
-datacite.creator: Lee, Seoho
-datacite.title: Smartphone Enabled Biosensor Systems For Nutrition Diagnostics And Preventive Care At The Point-Of-Need
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2930TS54

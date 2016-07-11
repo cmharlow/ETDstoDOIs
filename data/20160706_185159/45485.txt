@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45485
-datacite.creator: Bai, Gongshi
-datacite.title: Tumor Suppression By Regulation Of Mini-Chromosome Maintenance Expression In Response To Dna Replication Stress
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2S46P41S

@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45466
-datacite.creator: Glabau, Danya
-datacite.title: Morality In Action: Risking Death And Caring For Life In American Food Allergy Worlds
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2MC8XD64

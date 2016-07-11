@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45439
-datacite.creator: Cameron, Asa
-datacite.title: A Stable Isotopic (Carbon And Nitrogen) Evaluation Of Regional Differences In Herded Animal Diet And Pastoral Risk Management Practices During The Xiongnu Period Of Mongolia.
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2SF2S92T

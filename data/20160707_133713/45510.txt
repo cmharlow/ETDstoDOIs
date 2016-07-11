@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45510
-datacite.creator: Chylek, Lily
-datacite.title: Understanding Ige Receptor Signaling Through Computational Modeling And Quantitative Experiments
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK22N54F8M

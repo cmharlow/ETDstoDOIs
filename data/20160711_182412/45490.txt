@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45490
-datacite.creator: Chen, I-Tzu
-datacite.title: Plant-Mimetic Generation Of Negative Pressure In Water: From Fundamental Thermodynamics To Applications In Transport And Heat Transfer
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2H13157Q

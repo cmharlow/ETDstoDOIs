@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45568
-datacite.creator: Knight, Teresa
-datacite.title: Home Girls And Understudies: Shy Women In Cold War Theatre And Film
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2ZK5BJ4W

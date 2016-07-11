@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45527
-datacite.creator: Mashfiqui Rabbi Shuvo, Mohammod
-datacite.title: Automated Mobile Systems For Personalized Health Feedback
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK29C6XZ2V

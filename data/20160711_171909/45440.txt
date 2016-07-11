@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45440
-datacite.creator: Cahill, Adam
-datacite.title: An Investigation Of The Aluminum K-Edge By Spatially Resolved X-Ray Absorption Spectroscopy
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2TM76Z78

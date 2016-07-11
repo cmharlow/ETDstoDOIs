@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45496
-datacite.creator: Hohenstein, Jessica
-datacite.title: Development Of A Compact Optical Rapid Diagnostic Test Reader And A Point-Of-Care Fluorescence Lateral Flow Assay For Dengue Detection
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 

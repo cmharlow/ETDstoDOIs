@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45582
-datacite.creator: Zhang, Yiyi
-datacite.title: γ-Aminobutyric Acid (Gaba) In Fresh-Cut Fruits And Vegetables
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2C829B9M

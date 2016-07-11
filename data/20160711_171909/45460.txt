@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45460
-datacite.creator: DeBlase, Catherine
-datacite.title: Redox-Active Covalent Organic Frameworks And Porous Polymers For Electrochemical Energy Storage
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2FJ2GB1F

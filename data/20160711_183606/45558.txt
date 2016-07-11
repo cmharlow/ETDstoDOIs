@@ -1,7 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45558
-datacite.creator: Kumar, Sneha
-datacite.title: The Causes Of Indonesia'S Late Fertility Transition Stall
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 

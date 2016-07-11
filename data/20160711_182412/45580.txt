@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45580
-datacite.creator: Pan, Yuanyuan
-datacite.title: The Anti-Corruption Campaign And Catering Industry In China
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2HT2N90D

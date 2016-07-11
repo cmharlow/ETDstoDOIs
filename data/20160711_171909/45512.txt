@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45512
-datacite.creator: Cooper, Lara
-datacite.title: Activation And Survival Of Ovarian Follicles In Vitro: The Effects Of Bone Morphogenetic Proteins (Bmps) And/Or Cryopreservation On Bovine And Feline Ovarian Tissue.
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2639R36S

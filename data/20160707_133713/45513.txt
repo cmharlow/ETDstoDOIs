@@ -1,8 +1,0 @@
-# 
-datacite.ObjectLocationURL: http://hdl.handle.net/45513
-datacite.creator: Desrochers, Laura
-datacite.title: Microvesicles And Their Roles In Early Development
-datacite.publisher: Cornell University Library
-datacite.publicationyear: 2016
-datacite.resourcetype: Text 
-http://dx.doi.org/10.5072/FK2NC5Z967
