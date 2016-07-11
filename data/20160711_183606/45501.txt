@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45501
+datacite.creator: Mohammed, Jaaved
+datacite.title: Evolution Of Micrornas In Drosophila
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 

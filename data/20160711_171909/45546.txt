@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45546
+datacite.creator: Nehring, Ryan
+datacite.title: Yield Of Dreams: Marching West And The Politics Of Scientific Knowledge In The Brazilian Agricultural Research Corporation (Embrapa)
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK27S7PQ55

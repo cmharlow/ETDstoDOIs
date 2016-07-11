@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45548
+datacite.creator: Ndayizigamiye, Richard
+datacite.title: Race, Untimely Freedom, And The Question Of Leadership In Aimé CéSaire'S Theatre
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2348ND6Q

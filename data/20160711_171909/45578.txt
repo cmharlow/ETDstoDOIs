@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45578
+datacite.creator: Jin, Ye
+datacite.title: Reductive Dechlorination Of Tce By Kb-1Tm -Inoculated Mulch Columns In The Presence Of Various Terminal Electron Acceptors
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2F76C52F

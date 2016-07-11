@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45557
+datacite.creator: Horibata, Sachi
+datacite.title: Elucidating The Role Of Peptidylarginine Deiminase 2(Padi2) In Mammary Tumor Progression
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2M90714R

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45584
+datacite.creator: Citerone, Veronica
+datacite.title: Enhancing Gas Transfer At An Air-Water Interface Through Strengthened Secondary Flows Motivated By Algal Biofuel Production
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 

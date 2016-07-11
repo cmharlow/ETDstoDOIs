@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45444
+datacite.creator: Stingel, Ashley
+datacite.title: Ultrafast Continuum Mid-Infrared Spectroscopy Of Hydrogen-Bonded Dimers
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2765GC9F

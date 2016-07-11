@@ -10,13 +10,19 @@ Eventually, this will be migrated into the ETDs processing workflow as an automa
 
 ## How to Use
 
-Command sample:
-
-```$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2016-04' 1813-47.csv ```
+###Preparation
+*Run once for each time you clone new scripts into your working environment, not needed for each time you use scripts:*
 
 1. Clone or download a copy of this code repository locally.
 2. Install requirements using pip (run this command in a command line interface/shell and in the directory where you stored the code repository):
 ```$ pip install -r requirements.txt```
+
+###Run in 1 process/script:
+
+Command sample:
+
+```$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2016-04' 1813-47.csv ```
+
 3. Grab an unaltered copy of the eCommons CSV metadata/collection export that you wish to work off of. **The column names need to match the eCommons field names.** Fields and dates out of scope for this flow will be removed as part of the script (i.e. don't worry about removing records pre-2016 - you can indicate this later). It's easiest if you move the eCommons export CSV into the same, top level directory where you have this code.
 4. Run the following, with the appropriate options filled in:
 ```$ python etddoi.py -u 'EZID username' -p 'EZID password' -s 'DOI shoulder in for 11.1111/XX1' -d 'Date on or after to create DOIs for in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv```
@@ -24,7 +30,38 @@ example: ```$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '
 5. Let the script run. It will create a directory called data/YYYYMMDD_HHMMSS/ (named based off when the script was run). In that directory will be a file called EC.csv (the eCommons CSV with DOIs added, ready for reloading into eCommons) and the ANVL text files (with DOIs appended after generation). Wait for the script to complete before opening these files.
 6. Once complete, review data/YYYYMMDD_HHMMSS/EC.csv then send to Mira for loading/metadata batch update.
 
-This script needs the eCommons CSV as exported. It is targeted right now to working with the Graduate School ETDs collection (fields in other collections may/may not be ignored). It will automatically check and not process eCommons records that already have a value in the dc.identifier.doi field. It will process all records in a collection CSV otherwise unless a date is given (i.e., the text script above processes all ETD records where the ETD was submitted on or after 2016-04). If a datacite required field isn't found for a record, it will use a default of 'Unknown' at the moment. This can be changed for validation purposes (right now, no ETDs should encounter this issue, but checks are in place to generate missing field text files upon running this script).
+
+###Run in 2 Parts: Generate ANVL files, then mint DOIs
+
+Command sample:
+
+```
+$ python doiparse.py -d '2016-04' 1813-47.csv
+Records in the collection: 5570
+Records to be updated with DOIs: 145
+creating ANVL files in data/20160711_183606/
+ANVL txt files created.
+ANVL files available in: data/20160711_183606/
+$ python mintdoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2016-04' data/20160711_183606/
+... (DOI generation output)
+```
+
+3. Grab an unaltered copy of the eCommons CSV metadata/collection export that you wish to work off of. **The column names need to match the eCommons field names.** Fields and dates out of scope for this flow will be removed as part of the script (i.e. don't worry about removing records pre-2016 - you can indicate this later). It's easiest if you move the eCommons export CSV into the same, top level directory where you have this code.
+4. Run the following, with the appropriate options filled in:
+```
+python doiparse.py -d 'Date on or after to create DOIs for in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv
+```
+5. Let the script run. It will create a directory called data/YYYYMMDD_HHMMSS/ (named based off when the script was run). In that directory will be a file called EC.csv (the eCommons CSV with DOIs added, ready for reloading into eCommons) and the ANVL text files (with DOIs appended after generation). Wait for the script to complete before opening these files. The script will tell you when it is complete.
+6. Open the ANVL files and review all you like. When ready to generate DOIs, run this script (the path to ANVL files will be whatever is output in the last line of running the above script):
+```
+$ python mintdoi.py -u 'EZID username' -p 'EZID password' -s 'DOI shoulder in for 11.1111/XX1' path/to/directory/with/ANVLfiles/
+```
+7. Once complete, review data/YYYYMMDD_HHMMSS/EC.csv then send to Mira for loading/metadata batch update.
+
+
+###Note on starting CSV file:
+
+These scripts needs the eCommons CSV as exported. It is targeted right now to working with the Graduate School ETDs collection (fields in other collections may/may not be ignored). It will automatically check and not process eCommons records that already have a value in the dc.identifier.doi field. It will process all records in a collection CSV otherwise unless a date is given (i.e., the text script above processes all ETD records where the ETD was submitted on or after 2016-04). If a datacite required field isn't found for a record, it will use a default of 'Unknown' at the moment. This can be changed for validation purposes (right now, no ETDs should encounter this issue, but checks are in place to generate missing field text files upon running this script).
 
 ## Overall Workflow
 

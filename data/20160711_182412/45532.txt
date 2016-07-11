@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45532
+datacite.creator: Zhao, Nellie
+datacite.title: Essays In Labor And Macroeconomics
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK22R3TV54

@@ -3,6 +3,7 @@
 from argparse import ArgumentParser
 import sys
 import csv
+from csvparse import csvparse
 
 
 def doiparse(newdir):
@@ -45,7 +46,7 @@ def doiparse(newdir):
                     fh.write(record['id'])
                     fh.write('\n')
             # Publisher
-            fh.write('datacite.publisher: Cornell University Library'+ '\n')
+            fh.write('datacite.publisher: Cornell University Library' + '\n')
             # Publication Year
             if record['dc.date.issued[en_US]']:
                 fh.write('datacite.publicationyear: ' + record['dc.date.issued[en_US]'][:4] + '\n')
@@ -70,12 +71,6 @@ def main():
     parser.add_argument("-d", "--date", dest="date",
                         help="Date on or after that an ETD was published for \
                         creating DOIs. Put in format YYYY-MM")
-    parser.add_argument("-u", "--username", dest="username",
-                        help="EZID creation username")
-    parser.add_argument("-p", "--password", dest="password",
-                        help="EZID creation password.")
-    parser.add_argument("-s", "--shoulder", dest="shoulder", default="10.5072/FK2",
-                        help="DOI shoulder to use. Format 10.5072/FK2.")
     parser.add_argument("datafile", help="eCommons metadata worked from.")
 
     args = parser.parse_args()
@@ -84,10 +79,9 @@ def main():
         parser.print_help()
         parser.exit()
 
-    workingdir = csvParse(args.datafile, args.date)
-    output = doiParse(workingdir)
-    mintDOIs(output, workingdir, args)
-
+    workingdir = csvparse(args.datafile, args.date)
+    doiparse(workingdir)
+    print('ANVL files available in: ' + workingdir)
 
 if __name__ == '__main__':
     # eventually add tests?

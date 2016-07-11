@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45482
+datacite.creator: Taylor Poppe, Emily
+datacite.title: Going It Alone: Legal Mobilization And Efficacy In The Foreclosure Crisis
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK23N25C1K

@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45525
+datacite.creator: Ingalls, Micah
+datacite.title: The Power Problematic In Social-Ecological Systems
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2JD4VM7P

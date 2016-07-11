@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45476
+datacite.creator: Blake, Elizabeth
+datacite.title: Eating And Feeling: Pleasure And The Modernist Body
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK28G8MF7S

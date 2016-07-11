@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45486
+datacite.creator: Mera, Hilda
+datacite.title: A Study On The Surface Chemistry Of Lead Chalcogenides Nanocrystals And Patchy Colloidal Particles
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2N29V503
