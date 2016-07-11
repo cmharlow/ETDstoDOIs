@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45484
+datacite.creator: Soper, Fiona
+datacite.title: Effects Of Woody Legume (Prosopis Glandulosa) Encroachment On Nitrogen Fixation, Storage And Gas Loss In A Subtropical, Semi-Arid Savanna
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 

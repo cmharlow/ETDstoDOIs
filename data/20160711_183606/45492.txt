@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45492
+datacite.creator: Small, Ian
+datacite.title: Integration Of Epidemiological Information Into A Decision Support System For Late Blight
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 

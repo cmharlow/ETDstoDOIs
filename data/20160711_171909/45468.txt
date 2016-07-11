@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45468
+datacite.creator: Gunceler, Deniz
+datacite.title: Joint Density-Functional Theory For Energetics And Spectroscopy In Complex Aqueous And Nonaqueous Solvents
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2J38RF8P

@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45504
+datacite.creator: Beckers, Koenraad
+datacite.title: Low-Temperature Geothermal Energy: Systems Modeling, Reservoir Simulation, And Economic Analysis
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 

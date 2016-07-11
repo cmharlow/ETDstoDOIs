@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45454
+datacite.creator: Chick, Christina
+datacite.title: Emotion Regulation And Cognitive Representation Modulate Neural Activation To Risky Gains And Losses
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK29K4BR0R

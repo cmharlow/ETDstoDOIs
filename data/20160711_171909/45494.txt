@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45494
+datacite.creator: Price, Ian
+datacite.title: How To Turn On A Riboswitch: Structural And Mechanistic Lessons Learned From S-Adenosyl-L-Methionine- And Manganese-Sensing Rnas
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2DJ5FF0T

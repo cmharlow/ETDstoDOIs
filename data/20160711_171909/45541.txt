@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45541
+datacite.creator: Miao, Qisiyu
+datacite.title: Memory Vs Momentum - Exploring Momentum Strategies With The Hurst Exponent
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2BG2P80V

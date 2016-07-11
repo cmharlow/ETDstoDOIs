@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45572
+datacite.creator: Vo, Tommy
+datacite.title: Exploring Functional Landscapes Of The Cell Through The Lens Of Protein Interactome Networks
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK2ZC7XS2D

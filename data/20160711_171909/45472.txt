@@ -1,0 +1,8 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45472
+datacite.creator: Toupo, Danielle Flora
+datacite.title: Nonlinear Dynamics Of Cycles In Evolutionary Games
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
+http://dx.doi.org/10.5072/FK22809W6V

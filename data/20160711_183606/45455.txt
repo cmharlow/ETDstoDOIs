@@ -1,0 +1,7 @@
+# 
+datacite.ObjectLocationURL: http://hdl.handle.net/45455
+datacite.creator: Higgins, Carter
+datacite.title: Saintly Investments: Pilgrimage Development And Contemporary Hinduism In India
+datacite.publisher: Cornell University Library
+datacite.publicationyear: 2016
+datacite.resourcetype: Text 
