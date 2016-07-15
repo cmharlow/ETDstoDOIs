@@ -17,7 +17,7 @@ def mintdoi(data, workingdir, args):
         proc = ['python', 'ezid.py', unpw, 'mint', doish, '@', meta]
         EZIDout = subprocess.check_output(proc)
         doiURL = EZIDout.split(' | ')[0].replace('success: doi:',
-                                                 'http://dx.doi.org/')
+                                                 'http://doi.org/')
         print(recID, doiURL)
         with open(meta, 'a') as fh:
             fh.write(doiURL)
