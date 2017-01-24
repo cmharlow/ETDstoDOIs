@@ -14,53 +14,59 @@ def doiparse(newdir):
     print("creating ANVL files in " + newdir)
     for record in data:
         dirid = record['id']
-        with open(newdir + dirid + '.txt', 'a') as fh:
-            # Note field
-            fh.write('# ' + '\n')
-            # Handle
-            fh.write('datacite.ObjectLocationURL: ' + 'http://hdl.handle.net/' + record['id'] + '\n')
-            # Author
-            if record['dc.contributor.author[]']:
-                fh.write('datacite.creator: ' + record['dc.contributor.author[]'] + '\n')
-            elif record['dc.contributor.author']:
-                fh.write('datacite.creator: ' + record['dc.contributor.author'] + '\n')
-            elif record['dc.contributor.author[en_US]']:
-                fh.write('datacite.creator: ' + record['dc.contributor.author[en_US]'] + '\n')
-            else:
-                fh.write('datacite.creator: None')
-                with open(newdir + 'noauthsETDs.txt', 'a') as fh:
-                    fh.write(record['id'])
-                    fh.write('\n')
-            # Title
+        output = open(newdir + dirid + '.txt', 'a')
+        handle = 'http://hdl.handle.net/1813/' + dirid
+        # Target URL field
+        output.write('_target: ' + handle + '\n')
+        # Datacite Schema
+        output.write('_profile: datacite \n')
+        # Handle
+        output.write('datacite.ObjectLocationURL: ' + handle + '\n')
+
+        # Author
+        if record['dc.contributor.author[]']:
+            output.write('datacite.creator: ' + record['dc.contributor.author[]'] + '\n')
+        elif record['dc.contributor.author']:
+            output.write('datacite.creator: ' + record['dc.contributor.author'] + '\n')
+        elif record['dc.contributor.author[en_US]']:
+            output.write('datacite.creator: ' + record['dc.contributor.author[en_US]'] + '\n')
+
+        # Title
+        try:
             if record['dc.title[en_US]']:
-                fh.write('datacite.title: ' + record['dc.title[en_US]'] + '\n')
+                output.write('datacite.title: ' + record['dc.title[en_US]'] + '\n')
             elif record['dc.title[en]']:
-                fh.write('datacite.title: ' + record['dc.title[en]'] + '\n')
+                output.write('datacite.title: ' + record['dc.title[en]'] + '\n')
             elif record['dc.title[]']:
-                fh.write('datacite.title: ' + record['dc.title[]'] + '\n')
+                output.write('datacite.title: ' + record['dc.title[]'] + '\n')
             elif record['dc.title']:
-                fh.write('datacite.title: ' + record['dc.title'] + '\n')
+               output.write('datacite.title: ' + record['dc.title'] + '\n')
             else:
-                fh.write('datacite.title: None')
-                with open(newdir + 'notitlesETDs.txt', 'a') as fh:
-                    fh.write(record['id'])
-                    fh.write('\n')
-            # Publisher
-            fh.write('datacite.publisher: Cornell University Library' + '\n')
-            # Publication Year
-            if record['dc.date.issued[en_US]']:
-                fh.write('datacite.publicationyear: ' + record['dc.date.issued[en_US]'][:4] + '\n')
-            elif record['dc.date.issued[]']:
-                fh.write('datacite.publicationyear: ' + record['dc.date.issued[]'][:4] + '\n')
-            elif record['dc.date.issued']:
-                fh.write('datacite.publicationyear: ' + record['dc.date.issued'][:4] + '\n')
-            else:
-                fh.write('datacite.publicationyear: None')
-                with open(newdir + 'noyearsETDs.txt', 'a') as fh:
-                    fh.write(record['id'])
-                    fh.write('\n')
-            # Resource Type
-            fh.write('datacite.resourcetype: Text \n')
+                output.write('datacite.title: None')
+                with open(newdir + 'notitlesETDs.txt', 'a') as fother:
+                    fother.write(record['id'])
+                    fother.write('\n')
+        except KeyError:
+            pass
+
+        # Publisher
+        output.write('datacite.publisher: Cornell University Library' + '\n')
+
+        # Publication Year
+        if record['dc.date.issued[en_US]']:
+            output.write('datacite.publicationyear: ' + record['dc.date.issued[en_US]'][:4] + '\n')
+        elif record['dc.date.issued[]']:
+            output.write('datacite.publicationyear: ' + record['dc.date.issued[]'][:4] + '\n')
+        elif record['dc.date.issued']:
+            output.write('datacite.publicationyear: ' + record['dc.date.issued'][:4] + '\n')
+        else:
+            output.write('datacite.publicationyear: None')
+            with open(newdir + 'noyearsETDs.txt', 'a') as fyrother:
+                fyrother.write(record['id'])
+                fyrother.write('\n')
+
+        # Resource Type
+        output.write('datacite.resourcetype: Text \n')
     print('ANVL txt files created.')
     return(data)
 
