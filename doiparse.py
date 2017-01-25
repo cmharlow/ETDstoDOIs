@@ -15,7 +15,7 @@ def doiparse(newdir):
     for record in data:
         dirid = record['id']
         output = open(newdir + dirid + '.txt', 'a')
-        handle = 'http://hdl.handle.net/1813/' + dirid
+        handle = record['dc.identifier.uri']
         # Target URL field
         output.write('_target: ' + handle + '\n')
         # Datacite Schema
@@ -34,13 +34,13 @@ def doiparse(newdir):
         # Title
         try:
             if record['dc.title[en_US]']:
-                output.write('datacite.title: ' + record['dc.title[en_US]'] + '\n')
+                output.write('datacite.title: ' + record['dc.title[en_US]'].split(':')[0] + '\n')
             elif record['dc.title[en]']:
-                output.write('datacite.title: ' + record['dc.title[en]'] + '\n')
+                output.write('datacite.title: ' + record['dc.title[en]'].split(':')[0] + '\n')
             elif record['dc.title[]']:
-                output.write('datacite.title: ' + record['dc.title[]'] + '\n')
+                output.write('datacite.title: ' + record['dc.title[]'].split(':')[0] + '\n')
             elif record['dc.title']:
-               output.write('datacite.title: ' + record['dc.title'] + '\n')
+               output.write('datacite.title: ' + record['dc.title'].split(':')[0] + '\n')
             else:
                 output.write('datacite.title: None')
                 with open(newdir + 'notitlesETDs.txt', 'a') as fother:
