@@ -80,6 +80,48 @@ $ python mintdoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2016-04' da
 
 These scripts needs the eCommons CSV as exported. It is targeted right now to working with the Graduate School ETDs collection (fields in other collections may/may not be ignored). It will automatically check and not process eCommons records that already have a value in the dc.identifier.doi field. It will process all records in a collection CSV otherwise unless a date is given (i.e., the text script above processes all ETD records where the ETD was submitted on or after 2016-04). If a datacite required field isn't found for a record, it will use a default of 'Unknown' at the moment. This can be changed for validation purposes (right now, no ETDs should encounter this issue, but checks are in place to generate missing field text files upon running this script).
 
+
+## Editing a set of DOIs
+
+If you made a mistake on DOIs metadata that have already been created, you can use the following to batch update:
+
+### Preparation
+
+*Run once if you don't have these scripts on your computer:*
+
+1. Clone or download a copy of this code repository locally: `$ git clone https://github.com/cmh2166/ETDstoDOIs.git`
+2. Change into the directory where this is cloned, then install requirements using pip (run this command in a command line interface/shell and in the directory where you stored the code repository): `$ pip install -r requirements.txt`
+
+*Run before each time you start the ETD to DOI process:*
+
+2. Change into the directory where these scripts live on your computer: `$ cd ~/Tools/ETDstoDOIs` (change the last part to the path for your computer)
+3. Pull latest changes from GitHub repository for this script: `$ git pull origin master`
+4. Grab an unaltered copy of the eCommons CSV metadata/collection export that you wish to work off of. **The column names need to match the eCommons field names.** Fields and dates out of scope for this workflow will be removed as part of the script. It's easiest if you move the eCommons export CSV into the `data` directory in this repository (`data` is ignored by git, so will not be overwritten by `git pull origin master` and will not appear if you push anything back to GitHub).
+
+### Run the ETD Generation Job in 1 Process:
+
+5. Run the following script in the top level of the directory where these scripts live, with the appropriate options filled in:
+`$ python editdoi.py -u 'EZID username' -p 'EZID password' -s 'DOI shoulder in for 11.1111/XX1' -d 'Date on or after to create DOIs for in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv`
+example:
+`$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2016-04' 1813.47.csv`
+6. Let the script run. It will create a directory called `data/YYYYMMDD_HHMMSS/` (named based off when the script was run). In that directory will be a file called `EC.csv` (the eCommons CSV with DOIs added, ready for reloading into eCommons) and the ANVL text files (with DOIs appended after generation). Wait for the script to complete before opening these files.
+7. Once complete, review `data/YYYYMMDD_HHMMSS/EC.csv`, then send to Mira for loading/metadata batch update. There is also `data/YYYYMMDD_HHMMSS/EC_reviewOnly.csv` which has a fuller set of eCommons metadata and the new DOI for further review as needed.
+
+Example of the full process for this option:
+
+```bash
+$ cd ~/Tools/ETDstoDOIs
+$ git pull origin master
+ From https://github.com/cmh2166/ETDstoDOIs
+  * branch            master     -> FETCH_HEAD
+ Already up-to-date.
+ # Metadata Export from https://ecommons.cornell.edu/handle/1813/47
+ # Manually Downloaded as '1813-47.csv to ~/Downloads'
+$ mv ~/Downloads/1813-47.csv data/
+$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2017-01' data/1813-47.csv
+... (DOI generation output)
+```
+
 ## Further Scripts Workflow Docs (ignore if not wanting to understand the Python)
 
 Currently expected to run locally. Will eventually move this to metasrv most likely for inclusion in the ETDs workflows.
@@ -118,9 +160,3 @@ To be done: Error and exception handling for the ezid.py script.
 - Send `EC.csv` to eCommons staff for batch update.
 
 To be done: Automate pushing updates?
-
-## Details from Wendy
-DOIscript.sh – run this to generate DOIs from EZID. Need to edit so that in addition to writing generated DOI to the txt files, it makes (or appends to old) a csv of the new dois that we can just batch upload back into eCommons
-Ezid.py – DOIscript.sh calls this
-201605_ETDList_ForDOIs.csv – the list of info that needs to be converted to txt files
-201605_TestDOIMetadata.txt – sample of the format needed as input for the DOI API

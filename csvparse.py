@@ -93,7 +93,7 @@ def slimECdata(olddata):
     return(newdata)
 
 
-def csvparse(datafile, dateAfter):
+def csvparse(datafile, dateAfter, skipDOItest=False):
     """Take eCommons CSV, rewrite for our needs (workflow step 2)."""
     with open(datafile, 'r') as ECfile:
         ECreader = csv.DictReader(ECfile)
@@ -103,8 +103,12 @@ def csvparse(datafile, dateAfter):
     ECdataSlim = slimECdata(ECdata)
     # delete records for items issued after date provided
     ECdataDate = testDate(ECdataSlim, dateAfter)
-    data = checkDOI(ECdataDate)
-    print("Records to be updated with DOIs: " + str(len(data)))
+    if not skipDOItest:
+        data = checkDOI(ECdataDate)
+        print("Records to be updated with DOIs: " + str(len(data)))
+    else:
+        data = ECdataDate
+        print("Records to be altered: " + str(len(data)))
     # Create working directory for this job
     now = time.localtime()[0:6]
     dirfmt = "data/%4d%02d%02d_%02d%02d%02d/"

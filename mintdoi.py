@@ -21,7 +21,6 @@ def mintdoi(data, workingdir, args):
             print('Error with EZID script (ezid.py). Check messages above.')
             exit()
         doiURL = EZIDout.split(' | ')[0].replace('success: doi:', 'http://doi.org/')
-        doiURL = 'test'
         print(recID, doiURL)
         with open(meta, 'a') as fh:
             fh.write(doiURL)
