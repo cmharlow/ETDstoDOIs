@@ -96,16 +96,16 @@ If you made a mistake on DOIs metadata that have already been created, you can u
 
 2. Change into the directory where these scripts live on your computer: `$ cd ~/Tools/ETDstoDOIs` (change the last part to the path for your computer)
 3. Pull latest changes from GitHub repository for this script: `$ git pull origin master`
-4. Grab an unaltered copy of the eCommons CSV metadata/collection export that you wish to work off of. **The column names need to match the eCommons field names.** Fields and dates out of scope for this workflow will be removed as part of the script. It's easiest if you move the eCommons export CSV into the `data` directory in this repository (`data` is ignored by git, so will not be overwritten by `git pull origin master` and will not appear if you push anything back to GitHub).
+4. Grab a copy of the eCommons CSV metadata/collection export that you wish to work off of. **The column names need to match the eCommons field names.** Fields and dates out of scope for this workflow will be removed as part of the script. It's easiest if you move the eCommons export CSV into the `data` directory in this repository (`data` is ignored by git, so will not be overwritten by `git pull origin master` and will not appear if you push anything back to GitHub). Edit this CSV only where you need to make a change to the DOI metadata using the eCommons CSV headers - as one example, if you generated DOIs with the wrong handles, and the eCommons export with handles are correct, the new export handles will overwrite the old ones.
 
 ### Run the ETD Generation Job in 1 Process:
 
 5. Run the following script in the top level of the directory where these scripts live, with the appropriate options filled in:
-`$ python editdoi.py -u 'EZID username' -p 'EZID password' -s 'DOI shoulder in for 11.1111/XX1' -d 'Date on or after to create DOIs for in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv`
+`$ python editdoi.py -u 'EZID username' -p 'EZID password' -d 'Issue Date on or after to edit record DOIs in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv`
 example:
-`$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2016-04' 1813.47.csv`
-6. Let the script run. It will create a directory called `data/YYYYMMDD_HHMMSS/` (named based off when the script was run). In that directory will be a file called `EC.csv` (the eCommons CSV with DOIs added, ready for reloading into eCommons) and the ANVL text files (with DOIs appended after generation). Wait for the script to complete before opening these files.
-7. Once complete, review `data/YYYYMMDD_HHMMSS/EC.csv`, then send to Mira for loading/metadata batch update. There is also `data/YYYYMMDD_HHMMSS/EC_reviewOnly.csv` which has a fuller set of eCommons metadata and the new DOI for further review as needed.
+`$ python editdoi.py -u 'username' -p 'password' -d '2016-12' data/1813-47.csv`
+6. Let the script run. It will create a directory called `data/YYYYMMDD_HHMMSS/` (named based off when the script was run). In that directory will be a file called `EC.csv` (the eCommons CSV edited or with changes for pushing to DOI metadata) and the ANVL text files (updated for metadata changes). Wait for the script to complete before opening these files.
+7. Once complete, review `data/YYYYMMDD_HHMMSS/EC_updateReview.csv` for post-update further review as needed.
 
 Example of the full process for this option:
 
@@ -118,8 +118,8 @@ $ git pull origin master
  # Metadata Export from https://ecommons.cornell.edu/handle/1813/47
  # Manually Downloaded as '1813-47.csv to ~/Downloads'
 $ mv ~/Downloads/1813-47.csv data/
-$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2017-01' data/1813-47.csv
-... (DOI generation output)
+$ python editdoi.py -u 'username' -p 'password' -d '2016-12' data/1813-47.csv
+... (DOI update notification output)
 ```
 
 ## Further Scripts Workflow Docs (ignore if not wanting to understand the Python)
