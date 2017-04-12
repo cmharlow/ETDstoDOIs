@@ -15,20 +15,29 @@ def mintdoi(data, workingdir, args):
         doish = 'doi:' + args.shoulder
         meta = workingdir + recID + '.txt'
         proc = ['python', 'ezid.py', unpw, 'mint', doish, '@', meta]
-        EZIDout = subprocess.check_output(proc)
-        doiURL = EZIDout.split(' | ')[0].replace('success: doi:',
-                                                 'http://doi.org/')
+        try:
+            EZIDout = subprocess.check_output(proc)
+        except:
+            print('Error with EZID script (ezid.py). Check messages above.')
+            exit()
+        doiURL = EZIDout.split(' | ')[0].replace('success: doi:', 'http://doi.org/')
+        doiURL = 'test'
         print(recID, doiURL)
         with open(meta, 'a') as fh:
             fh.write(doiURL)
         record['dc.identifier.doi'] = doiURL
     print('finished minting DOIs.')
-    with open(workingdir + "EC.csv", 'w') as csvfile:
+    with open(workingdir + "EC_reviewOnly.csv", 'w') as csvfile:
         keys = set()
         for rec in data:
             for key in rec.keys():
                 keys.add(key)
         writer = csv.DictWriter(csvfile, fieldnames=keys)
+        writer.writeheader()
+        writer.writerows(data)
+    with open(workingdir + "EC.csv", 'w') as csvfile:
+        fields = ["id", "collection", "dc.identifier.doi"]
+        writer = csv.DictWriter(csvfile, fieldnames=fields, extrasaction='ignore')
         writer.writeheader()
         writer.writerows(data)
     print('finished creating eCommons update CSV in ' + workingdir)

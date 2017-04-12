@@ -14,34 +14,59 @@ Eventually, this will be migrated into the ETDs processing workflow as an automa
 
 *Run once if you don't have these scripts on your computer:*
 
-1. Clone or download a copy of this code repository locally.
-2. Install requirements using pip (run this command in a command line interface/shell and in the directory where you stored the code repository): `$ pip install -r requirements.txt`
+1. Clone or download a copy of this code repository locally: `$ git clone https://github.com/cmh2166/ETDstoDOIs.git`
+2. Change into the directory where this is cloned, then install requirements using pip (run this command in a command line interface/shell and in the directory where you stored the code repository): `$ pip install -r requirements.txt`
 
 *Run before each time you start the ETD to DOI process:*
 
-1. Change into the directory where these scripts live on your computer: `$ cd ~/Tools/ETDstoDOIs` (change the last part to the path for your computer)
-2. Pull latest changes from GitHub repository for this script: `$ git pull origin master`
-3. Grab an unaltered copy of the eCommons CSV metadata/collection export that you wish to work off of. **The column names need to match the eCommons field names.** Fields and dates out of scope for this workflow will be removed as part of the script. It's easiest if you move the eCommons export CSV into the `data` directory in this repository (`data` is ignored by git, so will not be overwritten by `git pull origin master` and will not appear if you push anything back to GitHub).
+2. Change into the directory where these scripts live on your computer: `$ cd ~/Tools/ETDstoDOIs` (change the last part to the path for your computer)
+3. Pull latest changes from GitHub repository for this script: `$ git pull origin master`
+4. Grab an unaltered copy of the eCommons CSV metadata/collection export that you wish to work off of. **The column names need to match the eCommons field names.** Fields and dates out of scope for this workflow will be removed as part of the script. It's easiest if you move the eCommons export CSV into the `data` directory in this repository (`data` is ignored by git, so will not be overwritten by `git pull origin master` and will not appear if you push anything back to GitHub).
 
 ### Run the ETD Generation Job in 1 Process:
 
-4. Run the following script in the top level of the directory where these scripts live, with the appropriate options filled in: `$ python etddoi.py -u 'EZID username' -p 'EZID password' -s 'DOI shoulder in for 11.1111/XX1' -d 'Date on or after to create DOIs for in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv`
-example: ```$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2016-04' 1813.47.csv```
-5. Let the script run. It will create a directory called `data/YYYYMMDD_HHMMSS/` (named based off when the script was run). In that directory will be a file called `EC.csv` (the eCommons CSV with DOIs added, ready for reloading into eCommons) and the ANVL text files (with DOIs appended after generation). Wait for the script to complete before opening these files.
-6. Once complete, review `data/YYYYMMDD_HHMMSS/EC.csv`, then send to Mira for loading/metadata batch update.
-
-
-### Run the ETD Generation Job in 2 Processes: 1. Generate ANVL files, then 2. Mint DOIs
-
-4. Run the following script in the top level of the directory where these scripts live, with the appropriate options filled in: `python doiparse.py -d 'Date on or after to create DOIs for in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv`
-5. Let the script run. It will create a directory called `data/YYYYMMDD_HHMMSS/` (named based off when the script was run). In that directory will be a file called `EC.csv` (the eCommons CSV with DOIs added, _not yet ready_ for reloading into eCommons) and the ANVL text files (with DOIs appended after generation). Wait for the script to complete before opening these files. The script will tell you when it is complete.
-6. Open the ANVL files and review all you like. When ready to generate DOIs, run this script (the path to ANVL files will be whatever is output in the last line of running the above script): `$ python mintdoi.py -u 'EZID username' -p 'EZID password' -s 'DOI shoulder in for 11.1111/XX1' path/to/directory/with/ANVLfiles/`
-7. Once complete, review `data/YYYYMMDD_HHMMSS/EC.csv`, then send to Mira for loading/metadata batch update.
+5. Run the following script in the top level of the directory where these scripts live, with the appropriate options filled in:
+`$ python etddoi.py -u 'EZID username' -p 'EZID password' -s 'DOI shoulder in for 11.1111/XX1' -d 'Date on or after to create DOIs for in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv`
+example:
+`$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2016-04' 1813.47.csv`
+6. Let the script run. It will create a directory called `data/YYYYMMDD_HHMMSS/` (named based off when the script was run). In that directory will be a file called `EC.csv` (the eCommons CSV with DOIs added, ready for reloading into eCommons) and the ANVL text files (with DOIs appended after generation). Wait for the script to complete before opening these files.
+7. Once complete, review `data/YYYYMMDD_HHMMSS/EC.csv`, then send to Mira for loading/metadata batch update. There is also `data/YYYYMMDD_HHMMSS/EC_reviewOnly.csv` which has a fuller set of eCommons metadata and the new DOI for further review as needed.
 
 Example of the full process for this option:
 
 ```bash
-$ python doiparse.py -d '2016-04' 1813-47.csv
+$ cd ~/Tools/ETDstoDOIs
+$ git pull origin master
+ From https://github.com/cmh2166/ETDstoDOIs
+  * branch            master     -> FETCH_HEAD
+ Already up-to-date.
+ # Metadata Export from https://ecommons.cornell.edu/handle/1813/47
+ # Manually Downloaded as '1813-47.csv to ~/Downloads'
+$ mv ~/Downloads/1813-47.csv data/
+$ python etddoi.py -u 'username' -p 'password' -s '10.5072/FK2' -d '2017-01' data/1813-47.csv
+... (DOI generation output)
+```
+
+
+### Run the ETD Generation Job in 2 Processes: 1. Generate ANVL files, then 2. Mint DOIs
+
+5. Run the following script in the top level of the directory where these scripts live, with the appropriate options filled in: `python doiparse.py -d 'Date on or after to create DOIs for in form YYYY-MM' /path/to/the/eCommonsCSVexportFile.csv`
+6. Let the script run. It will create a directory called `data/YYYYMMDD_HHMMSS/` (named based off when the script was run). In that directory will be a file called `EC.csv` (the eCommons CSV with DOIs added, _not yet ready_ for reloading into eCommons) and the ANVL text files (with DOIs appended after generation). Wait for the script to complete before opening these files. The script will tell you when it is complete.
+7. Open the ANVL files and review all you like. When ready to generate DOIs, run this script (the path to ANVL files will be whatever is output in the last line of running the above script): `$ python mintdoi.py -u 'EZID username' -p 'EZID password' -s 'DOI shoulder in for 11.1111/XX1' path/to/directory/with/ANVLfiles/`
+8. Once complete, review `data/YYYYMMDD_HHMMSS/EC.csv`, then send to Mira for loading/metadata batch update.
+
+Example of the full process for this option:
+
+```bash
+$ cd ~/Tools/ETDstoDOIs
+$ git pull origin master
+ From https://github.com/cmh2166/ETDstoDOIs
+  * branch            master     -> FETCH_HEAD
+ Already up-to-date.
+ # Metadata Export from https://ecommons.cornell.edu/handle/1813/47
+ # Manually Downloaded as '1813-47.csv to ~/Downloads'
+$ mv ~/Downloads/1813-47.csv data/
+$ python doiparse.py -d '2016-04' data/1813-47.csv
 Records in the collection: 5570
 Records to be updated with DOIs: 145
 creating ANVL files in data/20160711_183606/

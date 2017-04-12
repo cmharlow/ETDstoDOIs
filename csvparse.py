@@ -6,6 +6,7 @@ import csv
 import time
 import os
 import re
+from datetime import datetime
 year_re = re.compile("^[0-9]{4}\-+.+$")
 unneeded = ['dc.contributor.chair', 'dc.contributor.chair[]',
             'dc.contributor.chair[en_US]', 'dc.contributor.coChair[]',
@@ -39,6 +40,7 @@ unneeded = ['dc.contributor.chair', 'dc.contributor.chair[]',
 
 def testDate(ECdata, dateAfter):
     """Remove from ECdata all records not after date given."""
+    givendate = datetime(int(dateAfter[:4]), int(dateAfter[5:7]), 1)
     recdate = ''
     newdata = []
     for record in ECdata:
@@ -56,14 +58,12 @@ def testDate(ECdata, dateAfter):
             with open('nodateETDs.txt', 'a') as fh:
                 fh.write(record['id'])
                 fh.write('\n')
+                pass
 
         # If there is a date, check it against the provided, write to newdata.
         if recdate:
-            recyear = recdate[:4]
-            recmonth = recdate[5:7]
-            afteryear = dateAfter[:4]
-            aftermonth = dateAfter[5:7]
-            if recyear >= afteryear and recmonth >= aftermonth:
+            founddate = datetime(int(recdate[:4]), int(recdate[5:7]), 1)
+            if founddate >= givendate:
                 newdata.append(record)
     return(newdata)
 
