@@ -50,15 +50,15 @@ def doiparse(newdir):
             pass
 
         # Publisher
-        output.write('datacite.publisher: Cornell University Library' + '\n')
+        output.write('datacite.publisher: IUPUI University Library' + '\n')
 
         # Publication Year
-        if record['dc.date.issued[en_US]']:
+        if record['dc.date.issued']:
+            output.write('datacite.publicationyear: ' + record['dc.date.issued'][:4] + '\n')
+        elif record['dc.date.issued[en_US]']:
             output.write('datacite.publicationyear: ' + record['dc.date.issued[en_US]'][:4] + '\n')
         elif record['dc.date.issued[]']:
             output.write('datacite.publicationyear: ' + record['dc.date.issued[]'][:4] + '\n')
-        elif record['dc.date.issued']:
-            output.write('datacite.publicationyear: ' + record['dc.date.issued'][:4] + '\n')
         else:
             output.write('datacite.publicationyear: None')
             with open(newdir + 'noyearsETDs.txt', 'a') as fyrother:
