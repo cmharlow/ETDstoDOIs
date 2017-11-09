@@ -45,13 +45,13 @@ def testDate(ECdata, dateAfter):
     newdata = []
     for record in ECdata:
         # Grab dates from variety of places EC stores.
-        if record['dc.date.issued']:
+        if 'dc.date.issued' in record:
             if year_re.match(record['dc.date.issued']):
                 recdate = record['dc.date.issued']
-        elif record['dc.date.issued[]']:
+        elif 'dc.date.issued[]' in record:
             if year_re.match(record['dc.date.issued[]']):
                 recdate = record['dc.date.issued[]']
-        elif record['dc.date.issued[en_US]']:
+        elif 'dc.date.issued[en_US]' in record:
             if year_re.match(record['dc.date.issued[en_US]']):
                 recdate = record['dc.date.issued[en_US]']
         else:
