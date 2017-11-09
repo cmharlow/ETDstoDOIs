@@ -24,22 +24,22 @@ def doiparse(newdir):
         output.write('datacite.ObjectLocationURL: ' + handle + '\n')
 
         # Author
-        if record['dc.contributor.author[]']:
+        if 'dc.contributor.author[]' in record:
             output.write('datacite.creator: ' + record['dc.contributor.author[]'] + '\n')
-        elif record['dc.contributor.author']:
+        elif 'dc.contributor.author' in record:
             output.write('datacite.creator: ' + record['dc.contributor.author'] + '\n')
-        elif record['dc.contributor.author[en_US]']:
+        elif 'dc.contributor.author[en_US]' in record:
             output.write('datacite.creator: ' + record['dc.contributor.author[en_US]'] + '\n')
 
         # Title
         try:
-            if record['dc.title[en_US]']:
+            if 'dc.title[en_US]' in record:
                 output.write('datacite.title: ' + record['dc.title[en_US]'].split(':')[0] + '\n')
-            elif record['dc.title[en]']:
+            elif 'dc.title[en]' in record:
                 output.write('datacite.title: ' + record['dc.title[en]'].split(':')[0] + '\n')
-            elif record['dc.title[]']:
+            elif 'dc.title[]' in record:
                 output.write('datacite.title: ' + record['dc.title[]'].split(':')[0] + '\n')
-            elif record['dc.title']:
+            elif 'dc.title' in record:
                output.write('datacite.title: ' + record['dc.title'].split(':')[0] + '\n')
             else:
                 output.write('datacite.title: None')
@@ -50,15 +50,15 @@ def doiparse(newdir):
             pass
 
         # Publisher
-        output.write('datacite.publisher: Cornell University Library' + '\n')
+        output.write('datacite.publisher: IUPUI University Library' + '\n')
 
         # Publication Year
-        if record['dc.date.issued[en_US]']:
-            output.write('datacite.publicationyear: ' + record['dc.date.issued[en_US]'][:4] + '\n')
-        elif record['dc.date.issued[]']:
-            output.write('datacite.publicationyear: ' + record['dc.date.issued[]'][:4] + '\n')
-        elif record['dc.date.issued']:
+        if 'dc.date.issued' in record:
             output.write('datacite.publicationyear: ' + record['dc.date.issued'][:4] + '\n')
+        elif 'dc.date.issued[en_US]' in record:
+            output.write('datacite.publicationyear: ' + record['dc.date.issued[en_US]'][:4] + '\n')
+        elif 'dc.date.issued[]' in record:
+            output.write('datacite.publicationyear: ' + record['dc.date.issued[]'][:4] + '\n')
         else:
             output.write('datacite.publicationyear: None')
             with open(newdir + 'noyearsETDs.txt', 'a') as fyrother:
