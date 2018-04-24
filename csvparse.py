@@ -40,7 +40,7 @@ original_unneeded = [
 additional_unneeded = [
     'collection',
     'atmire.cua.enabled[]',
-    'dc.contributor.advisor
+    'dc.contributor.advisor',
     'dc.contributor.advisor[]',
     'dc.contributor.advisor[en _US]',
     'dc.contributor.advisor[en-US]',
@@ -54,7 +54,7 @@ additional_unneeded = [
     'dc.degree.date[en-US]',
     'dc.degree.date[en]',
     'dc.degree.date[en_US]',
-    'dc.degree.discipline
+    'dc.degree.discipline',
     'dc.degree.discipline[]',
     'dc.degree.discipline[en-US]',
     'dc.degree.discipline[en]',
@@ -71,16 +71,16 @@ additional_unneeded = [
     'dc.description.uri[]',
     'dc.description.version[en_US]',
     'dc.description[]',
-    'dc.embargo.lift
+    'dc.embargo.lift',
     'dc.embargo.lift[]',
     'dc.embargo[]',
     'dc.embargo[en]',
     'dc.embargo[en_US]',
     'dc.format.extent[]',
     'dc.format.mimetype[]',
-    'dc.identifier
+    'dc.identifier',
     'dc.identifier.issn[]',
-    'dc.identifier.other
+    'dc.identifier.other',
     'dc.identifier.other[]',
     'dc.identifier[]',
     'dc.language.iso[en-US]',
@@ -91,7 +91,7 @@ additional_unneeded = [
     'dc.rights.uri[]',
     'dc.rights[*]',
     'dc.rights[]',
-    'dc.subject.lcsh
+    'dc.subject.lcsh',
     'dc.subject.lcsh[]',
     'dc.subject.lcsh[en]',
     'dc.subject.lcsh[en_US]',
@@ -102,7 +102,7 @@ additional_unneeded = [
     'dc.subject.mesh[en_US]',
     'dc.subject[en-US]',
     'dc.subject[es]',
-    'dc.type
+    'dc.type',
     'dc.type[en-US]',
     'dcterms.subject[]',
     'thesis.degree.discipline[en]',
