@@ -15,6 +15,7 @@ def mintdoi(data, workingdir, args):
         doish = 'doi:' + args.shoulder
         meta = workingdir + recID + '.txt'
         proc = ['python', 'ezid.py', unpw, 'mint', doish, '@', meta]
+        print('Minting ID ' + str(recID))
         try:
             EZIDout = subprocess.check_output(proc)
         except:
